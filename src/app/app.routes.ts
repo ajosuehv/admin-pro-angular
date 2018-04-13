@@ -2,7 +2,7 @@ import { RouterModule, Routes} from '@angular/router';
 
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
- import { PageNotFoundComponent } from './shared/pagenotfound/pagenotfound.component';
+import { PageNotFoundComponent } from './shared/pagenotfound/pagenotfound.component';
 
 const appRoutes: Routes = [
     { path: 'login', component: LoginComponent },

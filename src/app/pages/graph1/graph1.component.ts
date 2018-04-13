@@ -38,7 +38,6 @@ export class Graph1Component implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.graficos['grafico1']);
   }
 
 }

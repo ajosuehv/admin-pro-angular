@@ -12,7 +12,10 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 
+// services
+import { ServiceModule } from './services/service.module';
 
+// Temporary
 import { FormsModule } from '@angular/forms';
 
 
@@ -26,10 +29,12 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     PagesModule,
-    APP_ROUTES,
-    FormsModule
+    FormsModule,
+    ServiceModule,
+    APP_ROUTES
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
