@@ -16,6 +16,8 @@ import { IncreaserComponent } from '../components/increaser/increaser.component'
 import { ChartsModule } from 'ng2-charts';
 import { GraphComponent } from '../components/graph/graph.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -25,7 +27,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         Graph1Component,
         GraphComponent,
         IncreaserComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromisesComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,
